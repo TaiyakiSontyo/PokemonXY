@@ -98,7 +98,7 @@ namespace CTRPluginFramework
 		std::chrono::milliseconds duration(3000);
   		std::this_thread::sleep_for(duration);
 		MessageBox("チート画面で下画面の'Tools'の中の'Settings'の中の'auto'の項目4点にチェックを入れると、設定したものとFavoriteを記憶します。\n他の3gxからの変更やバージョンの変更で動作がおかしい場合は" << Color::Yellow << " CTRPFData.bin " << Color::White << "を削除して初期設定を行ってください\n\nなにかバグ等不具合があれば" << Color::Cyan << " ∮Rei#2830" << Color::White << "または" << Color::Cyan << "Taiyaki#0001"  << Color::White << "まで。",DialogType::DialogOk).SetClear(ClearScreen::None)();
-		Pmenu = new PluginMenu(CTRPFname, 1, 2, 1, about1 + NewLINE + about2 + NewLINE + about3 + NewLINE + about4 + NewLINE + about5 + NewLINE + about6 + NewLINE);
+		Pmenu = new PluginMenu(CTRPFname, 1, 0, 0, about1 + NewLINE + about2 + NewLINE + about3 + NewLINE + about4 + NewLINE + about5 + NewLINE + about6 + NewLINE);
 		Pmenu->SynchronizeWithFrame(true);
 		OSD::Notify("Pokemon XY");
 		OSD::Notify(Color::Red << "P" << 
