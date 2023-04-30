@@ -1,2 +1,2 @@
 # PokemonXY
-It's 3gx of PokemonXY
+noel's ctrpf of pokemonXY
